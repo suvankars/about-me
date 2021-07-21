@@ -6,6 +6,7 @@ const Employer = ({name, duration, post}) => {
         <EmployerWraper>
             <p class="alignleft">{name}</p>
             <p class="alignright">{duration}</p>
+            <hr/>
             <p>{post}</p>
         </EmployerWraper>
     )

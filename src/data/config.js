@@ -3,7 +3,7 @@ module.exports = {
   logo: '',
   author: 'Suvankar Satpati',
   url: 'https://suvankar.vercel.app/',
-  legalName: 'John Doe',
+  legalName: 'Suvankar Satpati',
   defaultDescription: 'I’m Suvankar Satpati and I’m a Backend & Frontend engineer!',
   socialLinks: {
     twitter: 'http://www.twitter.com/suvankar.17',

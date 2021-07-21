@@ -32,7 +32,7 @@ export const Footer = styled.div`
 `;
 
 export const Intro = styled.h2`
- text-align: center;
+  text-align: center;
 `;
 
 export const EmployerWraper = styled.div`
@@ -40,6 +40,7 @@ export const EmployerWraper = styled.div`
   flex-flow: row wrap;
   font-weight: bold;
   padding-top: 10px;
+  flex: 1;
 
   .alignleft {
     width: 50%;
@@ -49,7 +50,19 @@ export const EmployerWraper = styled.div`
     width: 50%;
     text-align: right;
   }
+  hr {
+  flex-grow: 1;
+  width: 100%;
+}
 `;
+
+export const Content = styled.div`
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+`;
+
 export const ResumeWraper = styled.div`
   max-width: 900px;
   margin: auto;
@@ -60,14 +73,6 @@ export const ResumeWraper = styled.div`
 
   #title {
     margin-left: 3%;
-  }
-
-  .stuff {
-    display: inline-block;
-    margin-top: 6px;
-    margin-left: 55px;
-    width: 75%;
-    height: 1000px;
   }
 
   .head {
@@ -109,4 +114,15 @@ export const Thumbnail = styled.div`
   img {
     width: 100%;
   }
+`;
+
+export const IntroWrapper = styled.div`
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* @media (max-width: 960px) {
+    flex-direction: column;
+  } */
 `;
