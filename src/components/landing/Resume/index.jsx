@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from 'providers/ThemeProvider';
 import { ResumeWraper, HeaderWraper, Left, Right, Footer, Intro } from './styles';
-import ResumePDF from '../../../../public/static/resume-suvankar-satpati.pdf'
+import ResumePDF from '/public/static/resume-suvankar-satpati.pdf'
 import Employer from './Employer';
 
 export const Resume = () => {
